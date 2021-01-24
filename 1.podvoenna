@@ -1,0 +1,7 @@
+ne = "абвгґдеєжзиійїклмнопрстуфхцчшщьюя"
+for name in input('Ведіть слово>> '):
+    print(name * 2, end='')
+    if name in ne:
+        name = name + ne
+    else:
+        name = name
