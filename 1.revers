@@ -1,0 +1,2 @@
+slovo = ''.join(reversed(input("Введіть текст для реверсу >> ")))
+print(slovo)
